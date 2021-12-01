@@ -1,0 +1,17 @@
+{
+  "name": "resilia-api-grupo-aprendizagem",
+  "version": "0.0.1",
+  "description": "API para o projeto desenvolvido pelo grupo preto do Grupo de Aprendizagem da Resilia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
