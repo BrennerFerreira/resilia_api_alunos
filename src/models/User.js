@@ -8,8 +8,16 @@ const User = db.define("user", {
     allowNull: false,
     primaryKey: true,
   },
-  nome: {
+  name: {
     type: Sequelize.STRING,
+    allowNull: false,
+  },
+  password: {
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
+  resiliaClass: {
+    type: Sequelize.INTEGER,
     allowNull: false,
   },
   email: {
@@ -18,6 +26,10 @@ const User = db.define("user", {
   },
   firstDay: {
     type: Sequelize.DATE,
+    allowNull: false,
+  },
+  isActive: {
+    type: Sequelize.BOOLEAN,
     allowNull: false,
   },
 });

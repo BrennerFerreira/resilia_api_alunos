@@ -9,12 +9,16 @@ const Task = db.define("task", {
     allowNull: false,
     primaryKey: true,
   },
-  descricao: {
+  name: {
+    type: Sequelize.STRING,
+    allowNull: false,
+  },
+  description: {
     type: Sequelize.STRING,
     allowNull: false,
   },
   status: {
-    type: Sequelize.STRING,
+    type: Sequelize.INTEGER,
     allowNull: false,
   },
   dueDate: {
